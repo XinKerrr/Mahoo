@@ -879,7 +879,7 @@ function createTextureAsync () {
     gl.bindTexture(gl.TEXTURE_2D, texture);
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, image);
   };
-  image.src = './LDR_RGB1_0.png';
+  image.src = './LDR_LLL1_0.png';
   image.crossOrigin = 'Anonymous';
 
   return obj;
